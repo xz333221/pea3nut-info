@@ -11,7 +11,7 @@
     <block-collapsible lang="md" title="求职意向">
       Web前端应用设计开发、JavaScript应用开发。
 
-      熟练掌握JavaScript及Vue生态使用，拥有nuxt开发经验
+      vue项目开发
     </block-collapsible>
     <!--        <short-night-timeline :data="jobResume" title="职业履历" />-->
     <block-collapsible lang="md" title="技术剖面" class="skill-profile">
