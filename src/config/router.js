@@ -9,7 +9,8 @@ import Action from '@/config/action.js';
 
 export default new Router({
     mode: 'history',
-    routes :[{
+    routes :[
+      {
         path :'/',
         ...Action.rootRoute,
     },{

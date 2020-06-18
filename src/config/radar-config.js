@@ -23,7 +23,7 @@ export var JobRadarInfo = [
     {
         "label": "Dominance",
         "max": 25,
-        "value": 19
+        "value": 10
     }, {
         "label": "I",
         "max": 25,
@@ -31,18 +31,18 @@ export var JobRadarInfo = [
     }, {
         "label": "Steadiness",
         "max": 25,
-        "value": 3
+        "value": 18
     }, {
         "label": "C",
         "max": 25,
-        "value": 15
+        "value": 20
     }
 ];
 export var SkillRadarInfo = [
     {
         "label": "CSS",
         "max": 120,
-        "value": 88
+        "value": 105
     }, {
         "label": "Java-\nScript",
         "max": 120,
@@ -51,18 +51,14 @@ export var SkillRadarInfo = [
         "label": "Node.js",
         "max": 120,
         "value": 70
-    }, {
-        "label": "PHP",
-        "max": 120,
-        "value": 65
-    }, {
+    },  {
         "label": "DB",
         "max": 120,
         "value": 60
     }, {
         "label": "UI设计",
         "max": 120,
-        "value": 82
+        "value": 10
     }
 ];
 export var AcgRadarInfo = [
