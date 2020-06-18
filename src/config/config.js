@@ -3,6 +3,7 @@
 
 export const DevelopMode =true;
 export const LastUpdateTime =1592499747053;
+
 export const FragmentNormal =[
     '就是因为无法认同镜中的自己才会自取灭亡',
     '想知道更多……',
