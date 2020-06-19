@@ -5,7 +5,7 @@ var content =`
 /* auto generate */
 
 export const DevelopMode =${process.argv.includes('--dev')};
-export const LastUpdateTime =${+new Date};
+export const LastUpdateTime =${+new Date('2020-6-19')};
 export const FragmentNormal =[
     '就是因为无法认同镜中的自己才会自取灭亡',
     '想知道更多……',

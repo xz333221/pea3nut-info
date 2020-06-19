@@ -239,6 +239,9 @@ export default {
         text: formatDate(this.LastUpdateTime, { hasTime: false, fillZeroOfDate: true })
       }]
     }
+  },
+  created() {
+    console.log('job')
   }
 }
 </script>
