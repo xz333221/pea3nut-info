@@ -165,7 +165,6 @@
 
             回顶部的小兔子图片使用[snowmiku.com](http://snowmiku.com/skytown/)的回顶部图。经过了部分二次修改（如添加文字）后使用。
 
-            - [PSD文件下载](/static/img/scroll-to-top/scroll-to-top.psd)
 
             [8]: https://www.pixiv.net/
 
@@ -175,7 +174,6 @@
 
             标签形状是花生自己用PS钢笔工具照着某个标签图片（找不到了）画的，可认为是原创内容？
 
-            - [PSD文件下载](/static/img/tabs/tabs.psd)
 
             ### 致谢
 

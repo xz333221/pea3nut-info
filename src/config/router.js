@@ -12,7 +12,8 @@ export default new Router({
   routes: [
     {
       path: '/',
-      ...Action.rootRoute
+      component: require('@/components/pages/page-job.vue')
+      // ...Action.rootRoute
     },
     {
       path: '/test',
@@ -28,6 +29,10 @@ export default new Router({
     },
     {
       path: '/job',
+      component: require('@/components/pages/page-job.vue')
+    },
+    {
+      path: '/my_job',
       component: require('@/components/pages/page-job.vue')
     },
     {
