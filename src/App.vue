@@ -72,6 +72,7 @@ export default {
     'container-with-tabs': require('@/components/parts/container-with-tabs.vue')
   },
   created() {
+    console.log(11111)
     window.addEventListener('resize', debounce({
       fn() {
         this.$store.commit('setMobileMode', window.innerWidth <= this.mobileCritical)
