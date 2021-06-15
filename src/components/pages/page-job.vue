@@ -1,7 +1,7 @@
 <template>
   <div>
-    <article-header title="个人简历"/>
-    <!--        <article-header title="个人简历" :description="headerDescription" />-->
+<!--    <article-header title="个人简历"/>-->
+            <article-header title="个人简历" :description="headerDescription" />
     <profile-card :information="cardInfo">
       <radar-img
               title="Dominance (D), Influence (I), Steadiness (S), and Conscientiousness (C)."
@@ -141,7 +141,7 @@
 
         项目地址 应用商店搜索
       </block-justify-row>
-      <block-justify-row lang="md" title="个人项目">
+      <block-justify-row lang="md" title="个人项目" v-if="false">
         最初的想法是仿Infinity，然后添加了一些自己的功能，目前网站正在建设中
 
         - 前端使用的vue-admin框架
@@ -229,15 +229,20 @@ export default {
     headerDescription() {
       return [{
         label: '下载',
-        text: `
-                    <a href="/static/resource/resume/pea3nut-web-resume.pdf" target="_blank">正常版</a>
-                    /
-                    <a href="/static/resource/resume/pea3nut-web-image-resume.png" target="_blank">单页图片版</a>
-                `
-      }, {
-        label: '最后更新',
-        text: formatDate(this.LastUpdateTime, { hasTime: false, fillZeroOfDate: true })
-      }]
+        text: `<a href="https://my-assets.pek3b.qingstor.com/pdf/xz.pdf" target="_blank">pdf正常版</a>`
+      }
+      ]
+      // return [{
+      //   label: '下载',
+      //   text: `
+      //               <a href="/static/resource/resume/pea3nut-web-resume.pdf" target="_blank">正常版</a>
+      //               /
+      //               <a href="/static/resource/resume/pea3nut-web-image-resume.png" target="_blank">单页图片版</a>
+      //           `
+      // }, {
+      //   label: '最后更新',
+      //   text: formatDate(this.LastUpdateTime, { hasTime: false, fillZeroOfDate: true })
+      // }]
     }
   },
   created() {
